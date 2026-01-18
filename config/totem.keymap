@@ -102,7 +102,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &kp Q  &kp W  &kp F           &kp R  &kp T             &kp Y                &kp U  &kp I                  &kp O                &kp P
+                  &kp Q  &kp W  &kp E           &kp R  &kp T             &kp Y                &kp U  &kp I                  &kp O                &kp P
                   &kp A  &kp S  &kp D           &kp F  &kp G             &kp H                &kp J  &kp K                  &mt MINUS L          &mt SEMICOLON COLON
 &kp LEFT_CONTROL  &kp Z  &kp X  &kp C           &kp V  &kp B             &kp N                &kp M  &mt EXCLAMATION COMMA  &mt QUESTION PERIOD  &mt SINGLE_QUOTE DOUBLE_QUOTES  &mt RIGHT_ALT ESCAPE
                                 &kp LEFT_SHIFT  &mo 2  &stab_behavior    &mt LS(ENTER) ENTER  &mo 1  &kp BSPC
