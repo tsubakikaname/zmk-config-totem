@@ -45,6 +45,11 @@
             key-positions = <13 14>;
             bindings = <&kp RIGHT_PARENTHESIS>;
         };
+
+        combo_je {
+            bindings = <&kp LS(LC(BACKSPACE))>;
+            key-positions = <32 37>;
+        };
     };
 
     macros {
