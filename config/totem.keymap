@@ -101,10 +101,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &kp Q  &kp W  &kp E           &kp R  &kp T        &kp Y                &kp U  &kp I                  &kp O                &kp P
-                  &kp A  &kp S  &kp D           &kp F  &kp G        &kp H                &kp J  &kp K                  &mt MINUS L          &mt SEMICOLON COLON
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C           &kp V  &kp B        &kp N                &kp M  &mt EXCLAMATION COMMA  &mt QUESTION PERIOD  &mt SINGLE_QUOTE DOUBLE_QUOTES  &kp RIGHT_ALT
-                                &mt LSHIFT TAB  &mo 2  &kp SPACE    &mt LS(ENTER) ENTER  &mo 1  &kp BSPC
+                  &kp Q  &kp W  &kp E           &kp R  &kp T        &kp Y                &kp U       &kp I                  &kp O                &kp P
+                  &kp A  &kp S  &kp D           &kp F  &kp G        &kp H                &mt LPAR J  &mt RPAR K             &mt MINUS L          &mt SEMICOLON COLON
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C           &kp V  &kp B        &kp N                &kp M       &mt EXCLAMATION COMMA  &mt QUESTION PERIOD  &mt SINGLE_QUOTE DOUBLE_QUOTES  &kp RIGHT_ALT
+                                &mt LSHIFT TAB  &mo 2  &kp SPACE    &mt LS(ENTER) ENTER  &mo 1       &kp BSPC
             >;
         };
 
@@ -129,7 +129,7 @@
             bindings = <
              &mt RIGHT_BRACKET LEFT_BRACKET  &kp F7  &kp F8  &kp F9  &kp F10    &kp AT_SIGN            &kp HASH             &kp DOLLAR  &kp PRCNT            &kp AMPERSAND
              &mt GREATER_THAN LESS_THAN      &kp F4  &kp F5  &kp F6  &kp F11    &mt END HOME           &kp LEFT             &kp UP      &kp RIGHT            &mt GRAVE TILDE
-&kp RA(TAB)  &mt RIGHT_BRACE LEFT_BRACE      &kp F1  &kp F2  &kp F3  &kp F12    &mt PAGE_DOWN PAGE_UP  &mt PIPE UNDERSCORE  &kp DOWN    &mt CARET BACKSLASH  &trans           &kp LG(D)
+&kp RA(TAB)  &mt RIGHT_BRACE LEFT_BRACE      &kp F1  &kp F2  &kp F3  &kp F12    &mt PAGE_DOWN PAGE_UP  &mt PIPE UNDERSCORE  &kp DOWN    &mt CARET BACKSLASH  &mt RPAR LPAR    &kp LG(D)
                                                      &trans  &trans  &trans     &trans                 &trans               &trans
             >;
         };
