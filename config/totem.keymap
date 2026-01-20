@@ -36,7 +36,7 @@
 
         combo_lk {
             timeout-ms = <50>;
-            key-positions = <3 4>;
+            key-positions = <>;
             bindings = <&kp ESC>;
         };
 
@@ -101,10 +101,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &kp Q  &kp W  &kp E           &kp R  &kp T        &kp Y                &kp U       &kp I                  &kp O                &kp P
-                  &kp A  &kp S  &kp D           &kp F  &kp G        &kp H                &mt LPAR J  &mt RPAR K             &mt MINUS L          &mt SEMICOLON COLON
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C           &kp V  &kp B        &kp N                &kp M       &mt EXCLAMATION COMMA  &mt QUESTION PERIOD  &mt SINGLE_QUOTE DOUBLE_QUOTES  &kp RIGHT_ALT
-                                &mt LSHIFT TAB  &mo 2  &kp SPACE    &mt LS(ENTER) ENTER  &mo 1       &kp BSPC
+         &kp Q  &kp W           &kp E           &kp R         &kp T        &kp Y                &kp U         &kp I                  &kp O                &kp P
+         &kp A  &kp S           &kp D           &kp F         &kp G        &kp H                &mt LPAR J    &mt RPAR K             &mt MINUS L          &mt SEMICOLON COLON
+&kp ESC  &kp Z  &mt LEFT_ALT X  &mt LCTRL C     &mt LSHIFT V  &kp B        &kp N                &mt RSHIFT M  &mt EXCLAMATION COMMA  &mt QUESTION PERIOD  &mt SINGLE_QUOTE DOUBLE_QUOTES  &kp RIGHT_ALT
+                                &mt LSHIFT TAB  &mo 2         &kp SPACE    &mt LS(ENTER) ENTER  &mo 1         &kp BSPC
             >;
         };
 
