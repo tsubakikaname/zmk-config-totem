@@ -103,7 +103,7 @@
             bindings = <
                &kp Q  &kp W           &kp E        &kp R            &kp T        &kp Y                &kp U         &kp I                  &kp O                &mt FSLH P
                &kp A  &kp S           &kp D        &kp F            &kp G        &kp H                &mt LPAR J    &mt RPAR K             &mt MINUS L          &mt SEMICOLON COLON
-&mt LCTRL ESC  &kp Z  &mt LEFT_ALT X  &mt LCTRL C  &mt LSHIFT V     &kp B        &kp N                &mt RSHIFT M  &mt EXCLAMATION COMMA  &mt QUESTION PERIOD  &mt SINGLE_QUOTE DOUBLE_QUOTES  &mt RIGHT_ALT RS(RC(SPACE))
+&mt LCTRL ESC  &kp Z  &mt LEFT_ALT X  &mt LCTRL C  &mt LSHIFT V     &kp B        &kp N                &mt RSHIFT M  &mt EXCLAMATION COMMA  &mt QUESTION PERIOD  &mt SINGLE_QUOTE DOUBLE_QUOTES  &mt RIGHT_ALT RS(RC(BACKSPACE))
                                       &mo 2        &mt LS(TAB) TAB  &kp SPACE    &mt LS(ENTER) ENTER  &kp BSPC      &mo 1
             >;
         };
