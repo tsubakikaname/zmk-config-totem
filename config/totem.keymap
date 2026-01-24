@@ -127,9 +127,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                 &mt RIGHT_BRACKET LEFT_BRACKET  &kp F7  &kp F8  &kp F9        &kp F10                        &kp AT_SIGN            &kp HASH             &kp DOLLAR  &kp PRCNT  &kp AMPERSAND
-                 &mt LPAR RPAR                   &kp F4  &kp F5  &kp F6        &kp F11                        &mt END HOME           &kp LEFT             &kp UP      &kp RIGHT  &mt DQT SQT
-&mt LCTRL LG(D)  &mt RBRC LBRC                   &kp F1  &kp F2  &mt LSHFT F3  &kp F12                        &mt PAGE_DOWN PAGE_UP  &mt PIPE UNDERSCORE  &kp DOWN    &mt GT LT  &mt CARET BSLH  &mt GRAVE TILDE
+                 &mt RIGHT_BRACKET LEFT_BRACKET  &kp F7  &kp F8  &kp F9        &kp F10                        &kp AT_SIGN            &kp HASH             &kp DOLLAR  &kp PRCNT       &kp AMPERSAND
+                 &mt LPAR RPAR                   &kp F4  &kp F5  &kp F6        &kp F11                        &mt END HOME           &kp LEFT             &kp UP      &kp RIGHT       &mt DQT SQT
+&mt LCTRL LG(D)  &mt RBRC LBRC                   &kp F1  &kp F2  &mt LSHFT F3  &kp F12                        &mt PAGE_DOWN PAGE_UP  &mt PIPE UNDERSCORE  &kp DOWN    &mt CARET BSLH  &mt CARET BSLH  &mt GRAVE TILDE
                                                          &trans  &kp LSHIFT    &mt LS(LC(UP)) LS(LC(DOWN))    &none                  &kp DEL              &trans
             >;
         };
