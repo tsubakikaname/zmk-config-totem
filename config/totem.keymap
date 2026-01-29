@@ -98,6 +98,11 @@
             bindings = <&kp FSLH>;
             key-positions = <15 26>;
         };
+
+        under {
+            bindings = <&kp UNDER>;
+            key-positions = <16 27>;
+        };
     };
 
     macros {
