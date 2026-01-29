@@ -63,6 +63,16 @@
             bindings = <&kp RBKT>;
             key-positions = <5 6>;
         };
+
+        lpar {
+            bindings = <&kp LPAR>;
+            key-positions = <13 14>;
+        };
+
+        rpar {
+            bindings = <&kp RPAR>;
+            key-positions = <15 16>;
+        };
     };
 
     macros {
