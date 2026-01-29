@@ -73,6 +73,16 @@
             bindings = <&kp RPAR>;
             key-positions = <15 16>;
         };
+
+        lbrc {
+            bindings = <&kp LBRC>;
+            key-positions = <24 25>;
+        };
+
+        rbrc {
+            bindings = <&kp RBRC>;
+            key-positions = <26 27>;
+        };
     };
 
     macros {
