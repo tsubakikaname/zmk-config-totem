@@ -231,10 +231,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp F7  &kp F8  &kp F9      &kp F10  &kp LA(TAB)                          &kp HOME  &kp END   &kp PG_DN  &kp PG_UP  &none
-           &kp F4  &kp F5  &kp F6      &kp F11  &mt LS(LC(UP_ARROW)) LS(LC(DOWN))    &none     &kp LEFT  &kp UP     &kp RIGHT  &none
-&kp LCTRL  &kp F1  &kp F2  &kp F3      &kp F12  &kp LG(D)                            &none     &none     &kp DOWN   &none      &none  &kp RCTRL
-                           &kp LSHIFT  &trans   &none                                &none     &trans    &kp DEL
+            &kp F7  &kp F8  &kp F9      &kp F10  &kp LA(TAB)                          &kp HOME  &kp END   &kp PG_DN  &kp PG_UP  &none
+            &kp F4  &kp F5  &kp F6      &kp F11  &mt LS(LC(UP_ARROW)) LS(LC(DOWN))    &none     &kp LEFT  &kp UP     &kp RIGHT  &none
+&kp LSHIFT  &kp F1  &kp F2  &kp F3      &kp F12  &kp LG(D)                            &none     &none     &kp DOWN   &none      &none  &kp RCTRL
+                            &kp LSHIFT  &trans   &none                                &none     &trans    &kp DEL
             >;
         };
 
