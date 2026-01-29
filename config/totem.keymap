@@ -108,6 +108,16 @@
             bindings = <&kp ASTRK>;
             key-positions = <14 25>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <13 24>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <12 23>;
+        };
     };
 
     macros {
