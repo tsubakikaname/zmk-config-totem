@@ -86,12 +86,12 @@
 
         lt {
             bindings = <&kp LT>;
-            key-positions = <11 13>;
+            key-positions = <3 2>;
         };
 
         gt {
             bindings = <&kp GT>;
-            key-positions = <16 18>;
+            key-positions = <6 7>;
         };
 
         fslh {
