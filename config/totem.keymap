@@ -143,6 +143,16 @@
             bindings = <&kp CARET>;
             key-positions = <17 28>;
         };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <3 13>;
+        };
+
+        dot {
+            bindings = <&kp DOT>;
+            key-positions = <4 14>;
+        };
     };
 
     macros {
