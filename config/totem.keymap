@@ -83,6 +83,16 @@
             bindings = <&kp RBRC>;
             key-positions = <26 27>;
         };
+
+        lt {
+            bindings = <&kp LT>;
+            key-positions = <11 13>;
+        };
+
+        gt {
+            bindings = <&kp GT>;
+            key-positions = <16 18>;
+        };
     };
 
     macros {
