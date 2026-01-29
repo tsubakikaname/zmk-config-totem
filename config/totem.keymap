@@ -34,20 +34,29 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_lk {
-            timeout-ms = <50>;
-            key-positions = <>;
-            bindings = <&kp ESC>;
-        };
-
         combo_je {
             bindings = <&kp LS(LC(BACKSPACE))>;
             key-positions = <32 37>;
         };
 
-        stab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <24 32>;
+        at {
+            bindings = <&kp AT>;
+            key-positions = <5 15>;
+        };
+
+        hash {
+            bindings = <&kp HASH>;
+            key-positions = <6 16>;
+        };
+
+        doller {
+            bindings = <&kp DLLR>;
+            key-positions = <7 17>;
+        };
+
+        amps {
+            bindings = <&kp AMPS>;
+            key-positions = <18 8>;
         };
     };
 
