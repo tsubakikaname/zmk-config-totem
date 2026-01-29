@@ -34,11 +34,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_je {
-            bindings = <&kp LS(LC(BACKSPACE))>;
-            key-positions = <32 37>;
-        };
-
         at {
             bindings = <&kp AT>;
             key-positions = <5 15>;
@@ -57,6 +52,16 @@
         amps {
             bindings = <&kp AMPS>;
             key-positions = <18 8>;
+        };
+
+        lbkt {
+            bindings = <&kp LBKT>;
+            key-positions = <4 3>;
+        };
+
+        rbkt {
+            bindings = <&kp RBKT>;
+            key-positions = <5 6>;
         };
     };
 
