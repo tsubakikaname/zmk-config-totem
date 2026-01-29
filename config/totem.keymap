@@ -118,6 +118,16 @@
             bindings = <&kp PLUS>;
             key-positions = <12 23>;
         };
+
+        bslh {
+            bindings = <&kp BSLH>;
+            key-positions = <16 17>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <13 12>;
+        };
     };
 
     macros {
