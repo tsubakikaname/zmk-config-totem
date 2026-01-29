@@ -161,10 +161,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                 &mt RIGHT_BRACKET LEFT_BRACKET  &kp F7  &kp F8      &kp F9  &kp F10                        &none                  &none                &none     &none           &none
-                 &mt LPAR RPAR                   &kp F4  &kp F5      &kp F6  &kp F11                        &mt END HOME           &kp LEFT             &kp UP    &kp RIGHT       &none
-&mt LCTRL LG(D)  &mt RBRC LBRC                   &kp F1  &kp F2      &kp F3  &kp F12                        &mt PAGE_DOWN PAGE_UP  &mt PIPE UNDERSCORE  &kp DOWN  &mt CARET BSLH  &none  &kp RA(TAB)
-                                                         &kp LSHIFT  &trans  &mt LS(LC(UP)) LS(LC(DOWN))    &none                  &trans               &kp DEL
+                 &none  &kp F7  &kp F8      &kp F9  &kp F10                        &none                  &none                &none     &none           &none
+                 &none  &kp F4  &kp F5      &kp F6  &kp F11                        &mt END HOME           &kp LEFT             &kp UP    &kp RIGHT       &none
+&mt LCTRL LG(D)  &none  &kp F1  &kp F2      &kp F3  &kp F12                        &mt PAGE_DOWN PAGE_UP  &mt PIPE UNDERSCORE  &kp DOWN  &mt CARET BSLH  &none  &kp RA(TAB)
+                                &kp LSHIFT  &trans  &mt LS(LC(UP)) LS(LC(DOWN))    &none                  &trans               &kp DEL
             >;
         };
 
