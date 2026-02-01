@@ -234,7 +234,7 @@
             &kp F9  &kp F10  &kp F11     &kp F12  &kp LG(D)      &kp HOME                     &kp END   &kp PG_DN  &kp PG_UP  &none
             &kp F5  &kp F6   &kp F7      &kp F8   &none          &none                        &kp LEFT  &kp UP     &kp RIGHT  &none
 &kp LSHIFT  &kp F1  &kp F2   &kp F3      &kp F4   &kp LA(TAB)    &mt RS(RC(UP)) RS(RC(DOWN))  &none     &kp DOWN   &none      &none  &kp RCTRL
-                             &kp LSHIFT  &trans   &none          &none                        &trans    &kp DEL
+                             &kp LSHIFT  &trans   &kp LSHFT      &none                        &trans    &kp DEL
             >;
         };
 
