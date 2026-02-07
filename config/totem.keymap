@@ -141,7 +141,7 @@
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <28 17>;
+            key-positions = <29 18 18 29>;
         };
 
         equal {
