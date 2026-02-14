@@ -292,10 +292,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &sys_reset   &bt BT_CLR  &out OUT_TOG  &none   &none    &none  &none   &none  &none  &none
-       &bootloader  &bt BT_NXT  &none         &none   &none    &none  &none   &none  &none  &none
-&none  &none        &bt BT_PRV  &none         &none   &none    &none  &none   &none  &none  &none  &kp RA(RC(DELETE))
-                                &none         &trans  &none    &none  &trans  &none
+       &sys_reset   &bt BT_CLR  &out OUT_TOG  &none  &none    &none  &none  &none   &none  &none
+       &bootloader  &bt BT_NXT  &none         &none  &none    &none  &none  &none   &none  &none
+&none  &none        &bt BT_PRV  &none         &none  &none    &none  &none  &none   &none  &none  &kp RA(RC(DELETE))
+                                &trans        &none  &none    &none  &none  &trans
             >;
         };
 
