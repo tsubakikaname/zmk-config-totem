@@ -181,6 +181,15 @@
 
             tapping-term-ms = <200>;
         };
+
+        spacesift_behavior: spacesift_behavior {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SPACESIFT_BEHAVIOR";
+            #binding-cells = <0>;
+            bindings = <&mt LSHIFT SPACE>, <&kp SPACE>;
+
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
