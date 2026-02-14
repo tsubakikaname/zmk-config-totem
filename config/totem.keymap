@@ -240,10 +240,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &none           &msc SCRL_UP     &kp LG(D)    &kp HOME                     &kp PAGE_UP      &none     &kp UP     &mkp MB1        &mmv MOVE_UP     &mkp MB2
-            &none           &msc SCRL_DOWN   &kp LA(TAB)  &kp END                      &kp PAGE_DOWN    &kp LEFT  &kp RIGHT  &mmv MOVE_LEFT  &mmv MOVE_RIGHT  &none
-&kp LSHIFT  &msc SCRL_LEFT  &msc SCRL_RIGHT  &none        &mt LS(LC(UP)) LS(LC(DOWN))  &none            &none     &kp DOWN   &none           &mmv MOVE_DOWN   &none     &kp RCTRL
-                                             &kp LSHIFT   &trans                       &kp LSHFT        &none     &trans     &kp DEL
+            &none  &msc SCRL_UP    &kp LG(D)        &kp HOME                     &kp PAGE_UP      &none  &kp UP    &mkp MB1   &mmv MOVE_UP    &mkp MB2
+            &none  &msc SCRL_DOWN  &kp LA(TAB)      &kp END                      &kp PAGE_DOWN    &none  &kp LEFT  &kp RIGHT  &mmv MOVE_LEFT  &mmv MOVE_RIGHT
+&kp LSHIFT  &none  &msc SCRL_LEFT  &msc SCRL_RIGHT  &mt LS(LC(UP)) LS(LC(DOWN))  &none            &none  &kp DOWN  &none      &mmv MOVE_DOWN  &none            &kp RCTRL
+                                   &kp LSHIFT       &trans                       &kp LSHFT        &none  &trans    &kp DEL
             >;
         };
 
