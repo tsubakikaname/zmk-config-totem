@@ -190,15 +190,6 @@
 
             tapping-term-ms = <200>;
         };
-
-        j_alt_behavior: j_alt_behavior {
-            compatible = "zmk,behavior-tap-dance";
-            label = "J_ALT_BEHAVIOR";
-            #binding-cells = <0>;
-            bindings = <&mt LSHIFT RS(RC(BSPC))>, <&kp RA(SPACE)>;
-
-            tapping-term-ms = <250>;
-        };
     };
 
     keymap {
@@ -225,7 +216,7 @@
             bindings = <
                &kp Q  &kp W  &kp E            &kp R  &kp T                  &kp Y                &kp U  &kp I           &kp O          &kp P
                &kp A  &kp S  &kp D            &kp F  &kp G                  &kp H                &kp J  &kp K           &mt MINUS L    &mt COLON SEMI
-&mt LCTRL ESC  &kp Z  &kp X  &kp C            &kp V  &kp B                  &kp N                &kp M  &mt EXCL COMMA  &mt QMARK DOT  &mt DQT SQT     &j_alt_behavior
+&mt LCTRL ESC  &kp Z  &kp X  &kp C            &kp V  &kp B                  &kp N                &kp M  &mt EXCL COMMA  &mt QMARK DOT  &mt DQT SQT     &none
                              &mt LS(TAB) TAB  &mo 2  &spacesift_behavior    &mt LS(ENTER) ENTER  &mo 1  &kp BSPC
             >;
         };
