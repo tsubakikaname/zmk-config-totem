@@ -36,122 +36,122 @@
 
         at {
             bindings = <&kp AT>;
-            key-positions = <10 11>;
+            key-positions = <10 0>;
         };
 
         hash {
             bindings = <&kp HASH>;
-            key-positions = <11 12>;
+            key-positions = <11 1>;
         };
 
         doller {
             bindings = <&kp DLLR>;
-            key-positions = <12 13>;
+            key-positions = <12 2>;
         };
 
         prcnt {
             bindings = <&kp PRCNT>;
-            key-positions = <13 14>;
+            key-positions = <13 3>;
         };
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <15 16>;
+            key-positions = <14 4>;
         };
 
         amps {
             bindings = <&kp AMPS>;
-            key-positions = <16 17>;
+            key-positions = <15 5>;
         };
 
         under {
             bindings = <&kp UNDER>;
-            key-positions = <17 18>;
+            key-positions = <16 6>;
         };
 
         bslh {
             bindings = <&kp BSLH>;
-            key-positions = <18 19>;
+            key-positions = <17 7>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <26 27>;
+            key-positions = <18 8>;
         };
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <24 25>;
+            key-positions = <19 9>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <23 24>;
+            key-positions = <30 19>;
         };
 
         lpar {
             bindings = <&kp LPAR>;
-            key-positions = <3 13>;
+            key-positions = <13 14>;
         };
 
         rpar {
             bindings = <&kp RPAR>;
-            key-positions = <6 16>;
+            key-positions = <16 15>;
         };
 
         lbkt {
             bindings = <&kp LBKT>;
-            key-positions = <4 14>;
+            key-positions = <4 3>;
         };
 
         rbkt {
             bindings = <&kp RBKT>;
-            key-positions = <5 15>;
+            key-positions = <5 6>;
         };
 
         lbrc {
             bindings = <&kp LBRC>;
-            key-positions = <14 25>;
+            key-positions = <25 24>;
         };
 
         rbrc {
             bindings = <&kp RBRC>;
-            key-positions = <15 26>;
+            key-positions = <26 27>;
         };
 
         lt {
             bindings = <&kp LT>;
-            key-positions = <13 24>;
+            key-positions = <2 3>;
         };
 
         gt {
             bindings = <&kp GT>;
-            key-positions = <16 27>;
+            key-positions = <6 7>;
         };
 
         fslh {
             bindings = <&kp FSLH>;
-            key-positions = <17 28>;
+            key-positions = <27 16>;
         };
 
         star {
             bindings = <&kp STAR>;
-            key-positions = <7 17>;
+            key-positions = <26 15>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <12 23>;
+            key-positions = <24 13>;
         };
 
         plus {
             bindings = <&kp PLUS>;
-            key-positions = <2 12>;
+            key-positions = <25 14>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <8 18>;
+            key-positions = <28 17>;
         };
     };
 
