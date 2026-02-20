@@ -190,6 +190,15 @@
 
             tapping-term-ms = <200>;
         };
+
+        j_alt_behavior: j_alt_behavior {
+            compatible = "zmk,behavior-tap-dance";
+            label = "J_ALT_BEHAVIOR";
+            #binding-cells = <0>;
+            bindings = <&mt LSHIFT RS(RC(BSPC))>, <&kp RA(SPACE)>, <&none>;
+
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
