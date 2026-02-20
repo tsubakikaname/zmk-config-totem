@@ -195,9 +195,9 @@
             compatible = "zmk,behavior-tap-dance";
             label = "J_ALT_BEHAVIOR";
             #binding-cells = <0>;
-            bindings = <&mt LSHIFT RS(RC(BSPC))>, <&kp RA(SPACE)>, <&none>;
+            bindings = <&mt LSHIFT RS(RC(BSPC))>, <&kp RA(SPACE)>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <220>;
         };
     };
 
