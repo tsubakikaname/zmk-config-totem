@@ -241,8 +241,8 @@
 
             bindings = <
             &none  &msc SCRL_UP    &kp PAGE_DOWN    &kp PAGE_UP                  &kp LG(D)      &none  &none     &kp UP     &none  &none
-            &none  &msc SCRL_DOWN  &kp HOME         &kp END                      &none          &none  &kp LEFT  &kp RIGHT  &none  &none
-&kp LSHIFT  &none  &msc SCRL_LEFT  &msc SCRL_RIGHT  &mt LS(LC(UP)) LS(LC(DOWN))  &kp LA(TAB)    &none  &none     &kp DOWN   &none  &kp RSHIFT  &kp RCTRL
+            &none  &msc SCRL_DOWN  &kp HOME         &kp END                      &none          &none  &kp LEFT  &kp RIGHT  &none  &kp RCTRL
+&kp LSHIFT  &none  &msc SCRL_LEFT  &msc SCRL_RIGHT  &mt LS(LC(UP)) LS(LC(DOWN))  &kp LA(TAB)    &none  &none     &kp DOWN   &none  &none      &kp RSHIFT
                                    &kp LSHIFT       &trans                       &kp LSHFT      &none  &trans    &kp DEL
             >;
         };
