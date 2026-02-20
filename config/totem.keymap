@@ -197,7 +197,7 @@
             #binding-cells = <0>;
             bindings = <&mt LSHIFT RS(RC(BSPC))>, <&kp RA(SPACE)>;
 
-            tapping-term-ms = <220>;
+            tapping-term-ms = <250>;
         };
     };
 
