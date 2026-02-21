@@ -215,7 +215,7 @@
 
             bindings = <
                &kp Q  &kp W  &kp E            &kp R  &kp T                  &kp Y                &kp U  &kp I           &kp O          &kp P
-               &kp A  &kp S  &kp D            &kp F  &kp G                  &kp H                &kp J  &kp K           &mt MINUS L    &mt COLON SEMI
+               &kp A  &kp S  &kp D            &kp F  &kp G                  &kp H                &kp J  &kp K           &mt MINUS L    &mt SEMI COLON
 &mt LCTRL ESC  &kp Z  &kp X  &kp C            &kp V  &kp B                  &kp N                &kp M  &mt EXCL COMMA  &mt QMARK DOT  &mt DQT SQT     &mt RIGHT_ALT RS(RC(BSPC))
                              &mt LS(TAB) TAB  &mo 2  &spacesift_behavior    &mt LS(ENTER) ENTER  &mo 1  &kp BSPC
             >;
