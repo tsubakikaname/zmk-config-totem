@@ -151,7 +151,7 @@
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <29 18>;
+            key-positions = <28 29>;
         };
     };
 
