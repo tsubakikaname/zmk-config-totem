@@ -214,10 +214,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp Q  &kp W  &kp E            &kp R         &kp T                  &kp Y                &kp U         &kp I           &kp O          &kp P
-               &kp A  &kp S  &kp D            &mt LSHIFT F  &kp G                  &kp H                &mt RSHIFT J  &kp K           &mt MINUS L    &mt SEMI COLON
-&mt LCTRL ESC  &kp Z  &kp X  &kp C            &kp V         &kp B                  &kp N                &kp M         &mt EXCL COMMA  &mt QMARK DOT  &mt DQT SQT     &mt RIGHT_ALT RS(SPACE)
-                             &mt LS(TAB) TAB  &mo 2         &spacesift_behavior    &mt LS(ENTER) ENTER  &mo 1         &kp BSPC
+               &kp Q  &kp W  &kp E  &kp R            &kp T                  &kp Y                &kp U         &kp I           &kp O          &kp P
+               &kp A  &kp S  &kp D  &mt LSHIFT F     &kp G                  &kp H                &mt RSHIFT J  &kp K           &mt MINUS L    &mt SEMI COLON
+&mt LCTRL ESC  &kp Z  &kp X  &kp C  &kp V            &kp B                  &kp N                &kp M         &mt EXCL COMMA  &mt QMARK DOT  &mt DQT SQT     &mt RIGHT_ALT RS(SPACE)
+                             &mo 2  &mt LS(TAB) TAB  &spacesift_behavior    &mt LS(ENTER) ENTER  &kp BSPC      &mo 1
             >;
         };
 
@@ -240,10 +240,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &none  &msc SCRL_UP    &kp PAGE_DOWN    &kp PAGE_UP                  &kp LG(D)      &kp C_MUTE    &none     &none     &none      &none
-            &none  &msc SCRL_DOWN  &kp HOME         &kp END                      &none          &kp C_VOL_UP  &kp LEFT  &kp UP    &kp RIGHT  &kp RSHFT
-&kp LSHIFT  &none  &msc SCRL_LEFT  &msc SCRL_RIGHT  &mt LS(LC(UP)) LS(LC(DOWN))  &kp LA(TAB)    &kp C_VOL_DN  &none     &kp DOWN  &none      &none      &kp RCTRL
-                                   &kp LSHIFT       &trans                       &kp LSHFT      &none         &trans    &none
+            &none  &msc SCRL_UP    &kp PAGE_DOWN    &kp PAGE_UP                  &kp LG(D)      &kp C_MUTE    &none       &none     &none      &none
+            &none  &msc SCRL_DOWN  &kp HOME         &kp END                      &none          &kp C_VOL_UP  &kp LEFT    &kp UP    &kp RIGHT  &kp RSHFT
+&kp LSHIFT  &none  &msc SCRL_LEFT  &msc SCRL_RIGHT  &mt LS(LC(UP)) LS(LC(DOWN))  &kp LA(TAB)    &kp C_VOL_DN  &none       &kp DOWN  &none      &none      &kp RCTRL
+                                   &trans           &trans                       &kp LSHFT      &none         &kp RSHIFT  &trans
             >;
         };
 
