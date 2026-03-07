@@ -240,10 +240,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &none  &msc SCRL_UP    &kp PAGE_DOWN    &kp PAGE_UP                  &kp LG(D)      &kp C_MUTE    &none       &none     &none      &kp RSHIFT
-            &none  &msc SCRL_DOWN  &kp HOME         &kp END                      &none          &kp C_VOL_UP  &kp LEFT    &kp UP    &kp RIGHT  &none
-&kp LSHIFT  &none  &msc SCRL_LEFT  &msc SCRL_RIGHT  &mt LS(LC(UP)) LS(LC(DOWN))  &kp LA(TAB)    &kp C_VOL_DN  &none       &kp DOWN  &none      &none       &kp RCTRL
-                                   &trans           &kp DEL                      &kp LSHIFT     &none         &kp RSHIFT  &trans
+            &none  &msc SCRL_UP    &kp PAGE_DOWN    &kp PAGE_UP  &none                          &kp C_MUTE    &none       &none     &none      &kp RSHIFT
+            &none  &msc SCRL_DOWN  &kp HOME         &kp END      &mt LS(LC(UP)) LS(LC(DOWN))    &kp C_VOL_UP  &kp LEFT    &kp UP    &kp RIGHT  &none
+&kp LSHIFT  &none  &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp LG(D)    &kp LA(TAB)                    &kp C_VOL_DN  &none       &kp DOWN  &none      &none       &kp RCTRL
+                                   &trans           &kp DEL      &kp LSHIFT                     &none         &kp RSHIFT  &trans
             >;
         };
 
