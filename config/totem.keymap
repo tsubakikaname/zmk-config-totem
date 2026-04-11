@@ -153,6 +153,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <17 28>;
         };
+
+        Rayer3 {
+            bindings = <&mo 3>;
+            key-positions = <33 36>;
+        };
     };
 
     macros {
