@@ -266,10 +266,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &none  &none        &none           &none            &kp DOWN         &kp UP        &kp RC(C)  &kp RC(V)         &kp RC(X)       &kp RG(V)
-                  &none  &kp LA(TAB)  &kp HOME        &kp END          &kp PAGE_DOWN    &kp C_VOL_UP  &kp BSPC   &nn               &none           &xtu
-&kp LEFT_CONTROL  &none  &kp LG(D)    &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp PAGE_UP      &kp C_VOL_DN  &kp DEL    &kp RS(RC(DOWN))  &kp RS(RC(UP))  &none      &kp RCTRL
-                                      &kp LEFT_SHIFT  &trans           &kp LSHIFT       &none         &trans     &kp RSHIFT
+       &none  &none        &none           &none            &kp DOWN         &kp UP        &kp RC(C)  &kp RC(V)         &kp RC(X)       &kp RG(V)
+       &none  &kp LA(TAB)  &kp HOME        &kp END          &kp PAGE_DOWN    &kp C_VOL_UP  &kp BSPC   &nn               &none           &xtu
+&none  &none  &kp LG(D)    &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp PAGE_UP      &kp C_VOL_DN  &kp DEL    &kp RS(RC(DOWN))  &kp RS(RC(UP))  &none      &none
+                           &none           &trans           &kp LSHIFT       &none         &trans     &none
             >;
         };
 
