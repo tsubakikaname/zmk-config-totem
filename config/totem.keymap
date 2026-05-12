@@ -243,7 +243,7 @@
                &kp P  &kp Z  &kp H            &kp F  &kp LEFT               &kp RIGHT            &mt SEMI Q      &mt SQT O   &mt TILDE W    &kp X
                &kp D  &kp S  &kp N            &kp T  &kp G                  &kp L                &mt COLON A     &mt DQT I   &mt MINUS U    &kp E
 &mt LCTRL ESC  &kp B  &kp R  &kp M            &kp C  &kp K                  &kp Y                &mt EXCL COMMA  &kp J       &mt QMARK DOT  &kp V  &mt RS(SPACE) RIGHT_ALT
-                             &mt LS(TAB) TAB  &mo 4  &spacesift_behavior    &mt LS(ENTER) ENTER  &mo 1           &kp RSHIFT
+                             &mt LS(TAB) TAB  &mo 2  &spacesift_behavior    &mt LS(ENTER) ENTER  &mo 1           &kp RSHIFT
             >;
         };
 
