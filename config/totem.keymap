@@ -13,6 +13,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
@@ -289,10 +290,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &none  &bt BT_CLR  &none  &none   &none    &none  &none   &none  &none  &none
-       &none  &bt BT_NXT  &none  &none   &none    &none  &none   &none  &none  &none
-&none  &none  &bt BT_PRV  &none  &none   &none    &none  &none   &none  &none  &none  &none
-                          &none  &trans  &none    &none  &trans  &none
+             &none  &bt BT_CLR  &none  &none   &out OUT_TOG    &none  &none   &none  &none  &none
+             &none  &bt BT_NXT  &none  &none   &none           &none  &none   &none  &none  &none
+&bootloader  &none  &bt BT_PRV  &none  &none   &none           &none  &none   &none  &none  &none  &kp RA(RC(DELETE))
+                                &none  &trans  &none           &none  &trans  &none
             >;
         };
 
