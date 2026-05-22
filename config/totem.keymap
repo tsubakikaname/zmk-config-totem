@@ -236,7 +236,7 @@
                   &kp Q               &kp W  &kp E    &kp R             &kp T        &kp Y                &kp U              &kp I                  &mt TILDE O          &kp P
                   &mt LEFT_CONTROL A  &kp S  &kp D    &mt LEFT_SHIFT F  &kp G        &kp H                &mt RIGHT_SHIFT J  &kp K                  &mt MINUS L          &mt SEMI COLON
 &mt LEFT_GUI ESC  &kp Z               &kp X  &kp C    &kp V             &kp B        &kp N                &kp M              &mt EXCLAMATION COMMA  &mt QUESTION PERIOD  &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt RIGHT_ALT RS(SPACE)
-                                             &kp TAB  &mo 2             &kp SPACE    &mt RS(ENTER) ENTER  &mo 1              &kp BSPC
+                                             &kp TAB  &mo 4             &kp SPACE    &mt RS(ENTER) ENTER  &mo 1              &kp BSPC
             >;
         };
 
@@ -264,12 +264,27 @@
             >;
         };
 
-        layer_4 {
+        sim_layer {
+            // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+
+            label = "SYM";
+
+            // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+            //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
+            //             ┃     !     ┃     @     ┃     #     ┃     $     ┃     %     ┃   ┃     ˆ     ┃     &     ┃     Ü     ┃     '     ┃     "     ┃
+            //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
+            //             ┃     Ä     ┃           ┃    SZ     ┃           ┃           ┃   ┃   MUTE    ┃   YEN     ┃   EURO    ┃  POUND    ┃     Ö     ┃
+            // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
+            // ┃           ┃  EMAIL1   ┃  EMAIL2   ┃           ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   LAST    ┃   NEXT    ┃     \     ┃           ┃
+            // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
+            //                                     ┃           ┃    GIF    ┃    ADJ    ┃   ┃           ┃           ┃           ┃
+            //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
+
             bindings = <
-                   &none   &kp N7  &kp N8  &kp N9  &kp LPAR    &none              &kp F7  &kp F8         &kp F9  &kp F10
-                   &kp N0  &kp N4  &kp N5  &kp N6  &kp RPAR    &none              &kp F4  &kp F5         &kp F6  &kp F11
-&kp LC(BACKSPACE)  &none   &kp N1  &kp N2  &kp N3  &kp DOT     &none              &kp F1  &kp F2         &kp F3  &kp F12  &none
-                                   &none   &trans  &none       &kp RIGHT_CONTROL  &trans  &kp BACKSPACE
+           &kp F1  &kp F2  &kp F3          &kp F4                &kp F5                   &kp F6   &kp F7   &kp F8    &kp F9  &kp F10
+           &kp N1  &kp N2  &kp N3          &kp N4                &kp N5                   &kp N6   &kp N7   &kp N8    &kp N9  &kp N0
+&kp LCTRL  &none   &none   &kp PERIOD      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp F11  &kp F12  &none     &none   &none    &kp RCTRL
+                           &kp LEFT_SHIFT  &trans                &kp BSPC                 &none    &trans   &kp BSPC
             >;
         };
 
@@ -297,27 +312,12 @@
             >;
         };
 
-        sim_layer {
-            // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-
-            label = "SYM";
-
-            // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-            //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-            //             ┃     !     ┃     @     ┃     #     ┃     $     ┃     %     ┃   ┃     ˆ     ┃     &     ┃     Ü     ┃     '     ┃     "     ┃
-            //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-            //             ┃     Ä     ┃           ┃    SZ     ┃           ┃           ┃   ┃   MUTE    ┃   YEN     ┃   EURO    ┃  POUND    ┃     Ö     ┃
-            // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃           ┃  EMAIL1   ┃  EMAIL2   ┃           ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   LAST    ┃   NEXT    ┃     \     ┃           ┃
-            // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-            //                                     ┃           ┃    GIF    ┃    ADJ    ┃   ┃           ┃           ┃           ┃
-            //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-
+        layer_4 {
             bindings = <
-           &kp F1  &kp F2  &kp F3          &kp F4  &kp F5      &kp F6   &kp F7   &kp F8    &kp F9  &kp F10
-           &kp N1  &kp N2  &kp N3          &kp N4  &kp N5      &kp N6   &kp N7   &kp N8    &kp N9  &kp N0
-&kp LCTRL  &none   &none   &none           &none   &kp DOT     &kp F11  &kp F12  &none     &none   &none    &kp RCTRL
-                           &kp LEFT_SHIFT  &trans  &kp BSPC    &none    &trans   &kp BSPC
+                   &none   &kp N7  &kp N8  &kp N9  &kp LPAR    &none              &kp F7  &kp F8         &kp F9  &kp F10
+                   &kp N0  &kp N4  &kp N5  &kp N6  &kp RPAR    &none              &kp F4  &kp F5         &kp F6  &kp F11
+&kp LC(BACKSPACE)  &none   &kp N1  &kp N2  &kp N3  &kp DOT     &none              &kp F1  &kp F2         &kp F3  &kp F12  &none
+                                   &none   &trans  &none       &kp RIGHT_CONTROL  &trans  &kp BACKSPACE
             >;
         };
 
