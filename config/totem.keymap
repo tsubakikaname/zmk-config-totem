@@ -236,7 +236,7 @@
                   &kp Q               &kp W  &kp E    &kp R             &kp T        &kp Y                &kp U              &kp I                  &mt TILDE O          &kp P
                   &mt LEFT_CONTROL A  &kp S  &kp D    &mt LEFT_SHIFT F  &kp G        &kp H                &mt RIGHT_SHIFT J  &kp K                  &mt MINUS L          &mt SEMI COLON
 &mt LEFT_GUI ESC  &kp Z               &kp X  &kp C    &kp V             &kp B        &kp N                &kp M              &mt COMMA EXCLAMATION  &mt PERIOD QUESTION  &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt RIGHT_ALT RS(SPACE)
-                                             &kp TAB  &mo 4             &kp SPACE    &mt RS(ENTER) ENTER  &mo 1              &kp BSPC
+                                             &kp TAB  &mo 2             &kp SPACE    &mt RS(ENTER) ENTER  &mo 1              &kp BSPC
             >;
         };
 
@@ -281,10 +281,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp F1  &kp F2  &kp F3          &kp F4                &kp F5                   &kp F6   &kp F7   &kp F8    &kp F9  &kp F10
-           &kp N1  &kp N2  &kp N3          &kp N4                &kp N5                   &kp N6   &kp N7   &kp N8    &kp N9  &kp N0
-&kp LCTRL  &none   &none   &kp PERIOD      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp F11  &kp F12  &none     &none   &none    &kp RCTRL
-                           &kp LEFT_SHIFT  &trans                &kp BSPC                 &none    &trans   &kp BSPC
+                 &kp F1  &kp F2  &kp F3          &kp F4                &kp F5                   &kp F6   &kp F7   &kp F8    &kp F9  &kp F10
+                 &kp N1  &kp N2  &kp N3          &kp N4                &kp N5                   &kp N6   &kp N7   &kp N8    &kp N9  &kp N0
+&kp PRINTSCREEN  &none   &none   &kp PERIOD      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp F11  &kp F12  &none     &none   &none    &kp RCTRL
+                                 &kp LEFT_SHIFT  &trans                &none                    &none    &trans   &kp BSPC
             >;
         };
 
