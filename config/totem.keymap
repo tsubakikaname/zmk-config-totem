@@ -210,23 +210,23 @@
             tapping-term-ms = <200>;
         };
 
-    lt_repeat: lt_repeat {
-        compatible = "zmk,behavior-hold-tap";
-        label = "LAYER_TAP_REPEAT";
-        bindings = <&mo>, <&kp>;
-        #binding-cells = <2>;
-        flavor = "hold-preferred";  // 長押しを少し強めに優先
-        tapping-term-ms = <1000>;    // 長押し判定 (好みに応じて200～300で調整)
-        quick-tap-ms = <900>;      // タップ+長押しでリピートさせる時間
-    };
+        lt_repeat: lt_repeat {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_TAP_REPEAT";
+            bindings = <&mo>, <&kp>;
+            #binding-cells = <2>;
+            flavor = "hold-preferred";  // 長押しを少し強めに優先
+            tapping-term-ms = <1000>;    // 長押し判定 (好みに応じて200～300で調整)
+            quick-tap-ms = <900>;      // タップ+長押しでリピートさせる時間
+        };
 
-    scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
-        compatible = "zmk,behavior-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-        tap-ms = <20>;
-    };
+            tap-ms = <20>;
+        };
     };
 
     keymap {
