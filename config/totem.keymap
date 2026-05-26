@@ -252,7 +252,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &kp Q  &kp W  &kp E                 &kp R             &kp T        &kp Y                &kp U              &kp I                &mt TILDE O                     &kp P
+                  &kp Q  &kp W  &kp E                 &kp R             &kp T        &kp Y                &kp U              &kp I                &mt TILDE O                     &kp A
                   &kp A  &kp S  &kp D                 &mt LEFT_SHIFT F  &kp G        &kp H                &mt RIGHT_SHIFT J  &kp K                &mt MINUS L                     &mt COMMA PERIOD
 &mt LEFT_GUI ESC  &kp Z  &kp X  &kp C                 &kp V             &kp B        &kp N                &kp M              &mt SEMICOLON COLON  &mt SINGLE_QUOTE DOUBLE_QUOTES  &mt QUESTION EXCLAMATION  &mt RIGHT_ALT RS(SPACE)
                                 &mt LEFT_CONTROL TAB  &mo 2             &kp SPACE    &mt RS(ENTER) ENTER  &mo 1              &kp BSPC
