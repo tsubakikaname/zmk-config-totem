@@ -23,13 +23,6 @@
 #define TVP1 4
 #define TVP2 5
 
-&mt {
-    quick-tap-ms = <100>;
-    global-quick-tap;
-    flavor = "tap-preferred";
-    tapping-term-ms = <230>;
-};
-
 / {
     combos {
         compatible = "zmk,combos";
@@ -189,6 +182,13 @@
             bindings = <&kp X &kp T &kp U>;
             label = "XTU";
         };
+
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RS(BACKSPACE)>;
+            label = "NEW_MACRO";
+        };
     };
 
     behaviors {
@@ -228,6 +228,24 @@
 
             tap-ms = <20>;
         };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-mod-morph";
+            label = "NEW_BEHAVIOR";
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
+        };
+
+        bsdel: bsdel {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BSDEL";
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
+        };
     };
 
     keymap {
@@ -255,7 +273,7 @@
                   &kp Q  &kp W  &kp E                 &kp R             &kp T        &kp Y                &kp U              &kp I                &mt TILDE O                     &kp P
                   &kp A  &kp S  &kp D                 &mt LEFT_SHIFT F  &kp G        &kp H                &mt RIGHT_SHIFT J  &kp K                &mt MINUS L                     &mt COMMA PERIOD
 &mt LEFT_GUI ESC  &kp Z  &kp X  &kp C                 &kp V             &kp B        &kp N                &kp M              &mt SEMICOLON COLON  &mt SINGLE_QUOTE DOUBLE_QUOTES  &mt EXCLAMATION QUESTION  &mt RIGHT_ALT RS(SPACE)
-                                &mt LEFT_CONTROL TAB  &mo 2             &kp SPACE    &mt RS(ENTER) ENTER  &mo 1              &kp BSPC
+                                &mt LEFT_CONTROL TAB  &mo 2             &kp SPACE    &mt RS(ENTER) ENTER  &mo 1              &bsdel
             >;
         };
 
