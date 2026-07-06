@@ -179,7 +179,7 @@
             #binding-cells = <0>;
             bindings = <&kp SPACE>, <&kp TAB>;
 
-            tapping-term-ms = <180>;
+            tapping-term-ms = <200>;
         };
 
         spacesift_behavior: spacesift_behavior {
@@ -188,7 +188,7 @@
             #binding-cells = <0>;
             bindings = <&mt LSHIFT SPACE>, <&kp SPACE>;
 
-            tapping-term-ms = <180>;
+            tapping-term-ms = <200>;
         };
 
         lt_repeat: lt_repeat {
