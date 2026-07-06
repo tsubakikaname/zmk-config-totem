@@ -176,43 +176,6 @@
     };
 
     behaviors {
-        stab_behavior: stab_behavior {
-            compatible = "zmk,behavior-tap-dance";
-            label = "STAB_BEHAVIOR";
-            #binding-cells = <0>;
-            bindings = <&kp SPACE>, <&kp TAB>;
-
-            tapping-term-ms = <200>;
-        };
-
-        spacesift_behavior: spacesift_behavior {
-            compatible = "zmk,behavior-tap-dance";
-            label = "SPACESIFT_BEHAVIOR";
-            #binding-cells = <0>;
-            bindings = <&mt LSHIFT SPACE>, <&kp SPACE>;
-
-            tapping-term-ms = <200>;
-        };
-
-        lt_repeat: lt_repeat {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_REPEAT";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            flavor = "hold-preferred";  // 長押しを少し強めに優先
-            tapping-term-ms = <250>;    // 長押し判定 (好みに応じて200～300で調整)
-            quick-tap-ms = <900>;      // タップ+長押しでリピートさせる時間
-        };
-
-        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
-            tap-ms = <20>;
-        };
-
         bsdel: bsdel {
             compatible = "zmk,behavior-mod-morph";
             label = "BSDEL";
