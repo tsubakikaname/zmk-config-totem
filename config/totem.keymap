@@ -208,15 +208,6 @@
             tap-ms = <20>;
         };
 
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-mod-morph";
-            label = "NEW_BEHAVIOR";
-            bindings = <&kp BACKSPACE>, <&kp DELETE>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_RSFT|MOD_LSFT)>;
-        };
-
         bsdel: bsdel {
             compatible = "zmk,behavior-mod-morph";
             label = "BSDEL";
