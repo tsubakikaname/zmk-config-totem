@@ -168,27 +168,6 @@
                 <&macro_tap>,
                 <&kp G &kp I &kp F>;
         };
-
-        nn: nn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp N &kp N>;
-            label = "NN";
-        };
-
-        xtu: xtu {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp X &kp T &kp U>;
-            label = "XTU";
-        };
-
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RS(BACKSPACE)>;
-            label = "NEW_MACRO";
-        };
     };
 
     behaviors {
