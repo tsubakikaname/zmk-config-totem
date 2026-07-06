@@ -23,7 +23,10 @@
 #define TVP1 4
 #define TVP2 5
 
-&mt { tapping-term-ms = <250>; };
+&mt {
+    tapping-term-ms = <250>;
+    flavor = "tap-preferred";
+};
 
 / {
     combos {
