@@ -177,7 +177,7 @@
             #binding-cells = <0>;
             bindings = <&kp SPACE>, <&kp TAB>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <180>;
         };
 
         spacesift_behavior: spacesift_behavior {
@@ -186,7 +186,7 @@
             #binding-cells = <0>;
             bindings = <&mt LSHIFT SPACE>, <&kp SPACE>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <180>;
         };
 
         lt_repeat: lt_repeat {
@@ -196,7 +196,7 @@
 
             #binding-cells = <2>;
             flavor = "hold-preferred";  // 長押しを少し強めに優先
-            tapping-term-ms = <1000>;    // 長押し判定 (好みに応じて200～300で調整)
+            tapping-term-ms = <250>;    // 長押し判定 (好みに応じて200～300で調整)
             quick-tap-ms = <900>;      // タップ+長押しでリピートさせる時間
         };
 
