@@ -232,10 +232,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                   &none  &kp C_MUTE    &msc SCRL_RIGHT  &msc SCRL_LEFT          &kp PAGE_UP             &kp RG(V)  &kp RC(C)       &kp RC(V)       &kp RC(X)        &kp RC(A)
-                   &none  &kp C_VOL_UP  &kp HOME         &kp END                 &kp PAGE_DOWN           &none      &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none
-&kp LC(BACKSPACE)  &none  &kp C_VOL_DN  &none            &kp LS(LC(DOWN_ARROW))  &kp LS(LC(UP_ARROW))    &none      &kp RS(LEFT)    &kp DOWN_ARROW  &kp RS(RIGHT)    &none      &kp PRINTSCREEN
-                                        &kp LSHIFT       &trans                  &kp LEFT_CONTROL        &none      &trans          &none
+                   &none  &kp C_MUTE    &msc SCRL_RIGHT   &msc SCRL_LEFT          &kp PAGE_UP             &kp RG(V)  &kp RC(C)       &kp RC(V)       &kp RC(X)        &kp RC(A)
+                   &none  &kp C_VOL_UP  &kp HOME          &kp END                 &kp PAGE_DOWN           &none      &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none
+&kp LC(BACKSPACE)  &none  &kp C_VOL_DN  &none             &kp LS(LC(DOWN_ARROW))  &kp LS(LC(UP_ARROW))    &none      &kp RS(LEFT)    &kp DOWN_ARROW  &kp RS(RIGHT)    &none      &kp PRINTSCREEN
+                                        &kp LEFT_CONTROL  &trans                  &kp LEFT_SHIFT          &none      &trans          &none
             >;
         };
 
